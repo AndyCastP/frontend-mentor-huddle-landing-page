@@ -1,28 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Font Open Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
+
 </head>
 <body>
-  Try it free
+  <!-- Header -->
+  <header class="hero container">
+    <!-- nav -->
+    <nav class="nav__container">
 
-  Build The Community Your Fans Will Love
+        <img src="./images/logo.svg" alt="logo" class="nav__img">
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
+      
+        <a href="#" class="nav__link link">Try it free</a>
+        
+    </nav>
+    
+  </header>
 
-  Get Started For Free
+  <!-- Community -->
+  <section class="community container">
+
+    <main class="community__container">
+
+      <h1 class="community__title title">
+        Build The Community Your Fans Will Love
+      </h1>
+
+      <p class="community__paragraph paragraph">
+        
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. 
+
+      </p>
+
+      <a href="#" class="community__link link">Get Started For Free</a>
+
+    </main>
+
+  </section>
+
+  <!-- Statistics -->
+  <section class="statistics container">
+    
+    <figure class="statistics__figure">
+      <img src="./images/screen-mockups.svg" alt="" class="statistics__img">
+    </figure>
+
+    <ul class="statistics__list list">
+
+      <li class="statistics__item">
+        <img src="./images/icon-communities.svg" alt="" class="statistics__icon icon">
+        <h3 class="statistics__subtitle subtitle">1.4k+</h3>
+        <p class="statistics__paragraph paragraph">Communities Formed</p>
+      </li>
+
+      <li class="statistics__item">
+        <img src="./images/icon-messages.svg" alt="" class="statistics__icon icon">
+        <h3 class="statistics__subtitle subtitle">2.7m+</h3>
+        <p class="statistics__paragraph paragraph">Messages Sent</p>
+      </li>
+
+
+    </ul>
+
+  </section>
+
+
+
+  <!-- 
+
 
   1.4k+
   Communities Formed
@@ -55,13 +129,17 @@
   To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
   send you spam or pass on your email address
 
-  Subscribe
+  Subscribe -->
 
-  <footer>
+
+
+
+
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
