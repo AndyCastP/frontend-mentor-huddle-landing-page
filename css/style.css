@@ -120,15 +120,52 @@
 .statistics__figure{
     width: 90%;
     margin: 0 auto;
-
 }
+
 
 .statistics__img{
     width: 90%;
 }
 
 .statistics__list{
+    padding: 0;
+}
+
+.statistics__item{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 70px;
 
 }
+
+.statistics__figure-people, .statistics__figure-messages{
+    /* width: 45%; */
+    margin: 0 auto;
+}
+
+.statistics__icon{
+    width: 30px;
+    text-align: start;
+}
+
+.statistics__subtitle{
+    font-size: 65px;
+    color: var(--very-dark-cyan);
+}
+
+.statistics__paragraph{
+    font-weight: 400;
+    color: var(--very-dark-cyan);
+}
+
+.paragraph-messages{
+    text-align: center;
+}
+
+
+
+
+
+
 
 
